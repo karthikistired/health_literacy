@@ -1,0 +1,54 @@
+Modal{
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Webkit browsers */
+  -moz-user-select: none; /* Mozilla Firefox */
+  -ms-user-select: none; /* Microsoft Edge */
+}
+
+.modal-overlay {
+  pointer-events: auto;
+}
+
+.modal-content {
+  pointer-events: auto;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+  text-align: justify;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+}
+
+.table-container {
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); /* Add shadow */
+  border-radius: 10px;
+}
+
+table {
+  border: 2px solid #dee2e6; /* Thicker border */
+  border-collapse: collapse ;
+  border-radius: 10% ;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}

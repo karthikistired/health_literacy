@@ -1,0 +1,324 @@
+[
+    {
+        "id": 1,
+        "type": "no_span",
+        "description": "Drinking water instead of juice can help a person lose weight.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 2,
+        "type": "no_span",
+        "description": "Certain moods can make people want to eat high-calorie foods.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 3,
+        "type": "no_span",
+        "description": "Any physical activity burns calories.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 4,
+        "type": "no_span",
+        "description": "Having friends that are physically active can help a person be more active.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 5,
+        "type": "no_span",
+        "description": "In equal amounts, fried foods have fewer calories than grilled foods.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 6,
+        "type": "no_span",
+        "description": "Alcoholic beverages have few calories.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 7,
+        "type": "no_span",
+        "description": "Regular meats have fewer calories than lean meats.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "no_span",
+        "description": "The only way to lose weight is eating healthy foods.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 9,
+        "type": "no_span",
+        "description": "Tracking what we eat can help us understand how to cut calories.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 10,
+        "type": "no_span",
+        "description": "To keep their weight stable, some people need to eat more calories than other people.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 11,
+        "type": "no_span",
+        "description": "Some salad dressings and vinaigrettes can add many calories to a salad.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 12,
+        "type": "no_span",
+        "description": "In equal amounts, mustard has fewer calories than mayonnaise.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 13,
+        "type": "no_span",
+        "description": "A lunch that has 1,500 calories is healthy for most adults.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 14,
+        "type": "no_span",
+        "description": "An overweight adult who does not exercise needs to eat about 500 fewer calories a day to lose one pound per week.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 15,
+        "type": "no_span",
+        "description": "A weight loss goal of 1-2 pounds per week is commonly recommended.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 16,
+        "type": "no_span",
+        "description": "A healthy snack should contain at least 300 calories.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 17,
+        "type": "no_span",
+        "description": "100% fruit juice contains very few calories.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 18,
+        "type": "no_span",
+        "description": "A calorie tells us how healthy a food is.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 19,
+        "type": "no_span",
+        "description": "Regular energy drinks contain few calories.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 20,
+        "type": "no_span",
+        "description": "People tend to overeat when there is a lot of food around them.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 21,
+        "type": "no_span",
+        "description": "Setting goals for changing diet and physical activity can help people lose weight.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 22,
+        "type": "no_span",
+        "description": "Eating fried foods less often can help a person lose weight.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 23,
+        "type": "no_span",
+        "description": "Eating smaller portions can help people lose weight.",
+        "options": [
+            "True",
+            "False",
+            "Dont Know"
+        ]
+    },
+    {
+        "id": 24,
+        "type": "yes_span",
+        "description": "How many calories a day should an active man eat to have a healthy weight? (An example of an active man is someone who walks briskly for 30 minutes on most days of the week)",
+        "options": [
+            "1.\tLess than 1,000 calories",
+            "2.\t1,500 to 2,500 calories*",
+            "3.\t3,000 to 4,000 calories",
+            "4.\t4,500 calories or more",
+            "5.\tDon’t know"
+        ]
+    },
+    {
+        "id": 25,
+        "type": "yes_span",
+        "description": "How many calories a day should an active woman eat to have a healthy weight? (An example of an active woman is someone who walks briskly for 30 minutes on most days of the week)",
+        "options": [
+            "1.\tLess than 1,000 calories",
+            "2.\t1,500 to 2,500 calories*",
+            "3.\t3,000 to 4,000 calories",
+            "4.\t4,500 calories or more",
+            "5.\tDon’t know"
+        ]
+    },
+    {
+        "id": 26,
+        "type": "image",
+        "item":"pizza",
+        "question_set": [
+            {
+                "sub_id": "26 a",
+                "sub_description": "One serving has 380 calories.",
+                "options": [
+                    "True",
+                    "False",
+                    "Dont Know"
+                ]
+            },
+            {
+                "sub_id": "26 b",
+                "sub_description": "The entire pizza has 3 servings.",
+                "options": [
+                    "True",
+                    "False",
+                    "Dont Know"
+                ]
+            },
+            {
+                "sub_id": "26 c",
+                "sub_description": "If you ate the whole pizza, you would be eating 760 calories.",
+                "options": [
+                    "True",
+                    "False",
+                    "Dont Know"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "type": "image",
+        "item":"soda",
+        "question_set": [
+            {
+                "sub_id": "27 a",
+                "sub_description": "One serving has 150 calories.",
+                "options": [
+                    "True",
+                    "False",
+                    "Dont Know"
+                ]
+            },
+            {
+                "sub_id": "27 b",
+                "sub_description": "The entire soda has 2 servings.",
+                "options": [
+                    "True",
+                    "False",
+                    "Dont Know"
+                ]
+            },
+            {
+                "sub_id": "27 c",
+                "sub_description": "If you drank the entire soda bottle, you would be drinking 300 calories.",
+                "options": [
+                    "True",
+                    "False",
+                    "Dont Know"
+                ]
+            }
+        ]
+    }
+]

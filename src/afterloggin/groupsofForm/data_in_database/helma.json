@@ -1,0 +1,521 @@
+[
+    {
+        "type": "TABLE",
+        "hoptions": [
+            "Never",
+            "Rarely",
+            "Sometimes",
+            "Usually",
+            "Always"
+        ],
+        "qs": [
+            {
+                "id": 1,
+                "text": "I try to get more information about health as much as possible ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 2,
+                "text": "I am able to find health information that I need ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 3,
+                "text": "When ill or facing health problems, I can get the necessary information I need",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 4,
+                "text": "I am able to ask others about health information that I need ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 5,
+                "text": "I am able to access information about the healthy diet that is appropriate for my age group ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 6,
+                "text": "I am able to access information about the physical activity appropriate for my age group ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 7,
+                "text": "I am able to access information about the proper care required for my skin and hair that is appropriate for my age group",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 8,
+                "text": "I am able to access information about mental health appropriate for my age group",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 9,
+                "text": "I am able to find useful resources about health Information on the Internet",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 10,
+                "text": "I can read brochures on prescribed medicine",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 11,
+                "text": ". I can easily read educational brochures about nutritional issues",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 12,
+                "text": "I can easily read brochures/fact sheets about disease prevention (e.g. anaemia, osteoporosis, respiratory infections, etc.)",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 13,
+                "text": "I can easily read health information materials in magazines and newspapers",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 14,
+                "text": "I can easily read health information materials on the Internet (e.g. websites)",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 15,
+                "text": ". I can easily understand the meaning of the signs used in hospitals and medical centres",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 16,
+                "text": "I can understand most things I hear about health",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 17,
+                "text": "I can easily understand the content of health information that I find",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 18,
+                "text": "I can easily understand my doctor’s instructions and recommendations (e.g. prescriptions)",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 19,
+                "text": "I can easily understand information about medications – usage, side effects and warnings",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 20,
+                "text": "I can easily understand the nutrition facts on food packages",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 21,
+                "text": "I can understand the information and recommendations about proper nutrition for adolescents in the media (e.g. radio, TV, internet, etc.)",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 22,
+                "text": "I can understand the information and warnings provided by the media (e.g. radio, TV, internet, etc.) about tobacco, drug abuse and risky behaviours",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 23,
+                "text": "I can understand the information and recommendations about health and illness in the media ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 24,
+                "text": "I can understand the recommendations on prevention of accidents and injuries",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 25,
+                "text": "When faced with new health information, I can judge its accuracy",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 26,
+                "text": "I would compare the data obtained from various sources",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 27,
+                "text": "When dealing with conflicting information about health issues, I can recognize the correct information",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 28,
+                "text": "I have the ability to judge which resources I can trust",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 29,
+                "text": "When dealing with nutritional information I can choose the right information",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 30,
+                "text": "When shopping, I choose food based on its nutrition facts (e.g. amount of energy, sugar, protein, etc.) written on the packaging",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 31,
+                "text": "I try to choose foods without preservatives",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 32,
+                "text": "I try to apply what I have learned about health issues in my everyday life",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 33,
+                "text": "I try to keep my body weight in balance",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 34,
+                "text": "I can discuss my concerns relating to health issues with health providers",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 35,
+                "text": "When visiting a doctor or health provider I am able to give him/her all of my necessary personal information",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 36,
+                "text": "When visiting a doctor or health provider I am able to tell him/her the name of the medications that I have previously used ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 37,
+                "text": "When visiting a doctor or health provider I am able to ask all the questions I have",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 38,
+                "text": "I can share the health information that I gather with others (e.g. family, friends, etc.)",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 39,
+                "text": "If I have any questions about health issues I am able to get information and advice from others",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 40,
+                "text": "When visiting a doctor or health provide I am able to ask questions based on my research",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "id": 41,
+                "text": "I talk to my friends about avoiding risky behaviour (e.g. smoking, hookah, drugs, etc.)",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "type": "INFO",
+        "text": "This information is on the back of a container of milk. If a person drinks 3 cups of milk in one day, how many carbohydrates has he/she recieved?",
+        "info": [
+            "Nutrition facts",
+            "Serving size: 1 cup (240 cc)",
+            "Servings per container: 4",
+            "Amount per serving: ",
+            "Energy: 140 Kcal",
+            "Total Fat: 7gr \nCholesterol: 30mg",
+            "Carbohydrates:11gr \nSugar: 0gr",
+            "Protein: 8gr",
+            "Sodium: 160mg"
+        ],
+        "regex": "[0-9]*\\.?[0-9]*",
+        "regtest": "/^\\d*\\.?\\d*$/"
+    },
+    {
+        "id": 43,
+        "type": "INFO",
+        "text": "Calculate the BMI of a person with height=160 cm and weight=70kg?",
+        "info": [],
+        "regex": "[0-9]*\\.?[0-9]*",
+        "regtest": "/^\\d*\\.?\\d*$/"
+    },
+    {
+        "id": 44,
+        "type": "MULTIINFO",
+        "text": "What is this person's body fat status (based on the following information)?",
+        "info": [
+            [
+                "",
+                "Underweight",
+                "Normal weight",
+                "Overweight",
+                "Obese"
+            ],
+            [
+                "BMI",
+                "<18.5",
+                "18.5-24.9",
+                "25-29.9",
+                "≥30"
+            ],
+            [
+                "option",
+                "a",
+                "b",
+                "c",
+                "d"
+            ]
+        ],
+        "regex": "[abcd]",
+        "regtest": "^[a-dA-D]*$"
+    }
+]

@@ -1,0 +1,223 @@
+[
+    {
+        "id": 1,
+        "domain": "Engagement scale",
+        "description_domain": [
+            {
+                "sub_id":"ES1",
+                "description": "I am concerned that the price of food that is considered to be healthy may get too high.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES2",
+                "description": "I am concerned that there is not a wide selection of healthy food at the grocery stores where I usually shop.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES3",
+                "description": "I try to influence others (for instance family members and friends) to eat healthy food.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES4",
+                "description": "I require my college/university, workplace, etc. to offer healthy food.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES5",
+                "description": "I welcome any initiative aimed at promoting a healthy diet for children and adolescents.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES6",
+                "description": "I engage actively in initiatives aimed at promoting a healthier diet (for instance at my college/university).",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES7",
+                "description": "I get engaged in issues contributing to the provision of a healthier diet for most of the people in this country.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"ES8",
+                "description": "I would like to get involved in political issues directed at improving the population’s diet.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "domain": "Claims scale",
+        "description_domain": [
+            {
+                "sub_id":"CS1",
+                "description": "I have confidence in the various diets that I read about in newspapers, magazines, etc",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS2",
+                "description": "I am critical of the dietary information that I receive from various sources in society.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS3",
+                "description": "I am concerned that the dietary information that I read may not be based on science.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS4",
+                "description": "I believe my body tells me what it needs in terms of nutrients, regardless of researchers’ opinions about this.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS5",
+                "description": "I am confident that the media’s presentation of new scientific findings concerning a healthy diet is correct.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS6",
+                "description": "I am familiar with the criteria for scientifically based content in health claims.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS7",
+                "description": "I often refer to newspapers and magazines if I discuss diet with others. ",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS8",
+                "description": "I am influenced by the dietary advice that I read about in newspapers and magazines, etc.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS9",
+                "description": "I am confident that some of the methods within alternative medicine (such as health foods) provide me with credible dietary advice.",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS10",
+                "description": "I find it hard to distinguish scientific nutritional information from non-scientific nutritional information",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            },
+            {
+                "sub_id":"CS11",
+                "description": "I base my diet on information that I get from scientifically recognized literature (for instance, the journals published by the Norwegian Medical Association and the Norwegian Directorate of Health).",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+/* Navigation.js */
+.navbar {
+  position: sticky;
+  z-index: 1;
+}
+
+.nav-link:hover {
+  background-color: orange;
+  color: black;
+}
+
+.img-thumbnail {
+  width: 100px;
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+}
+
+/* used in Offer.js */
+#description {
+  font-size: medium;
+}
+.group{
+  display: ruby;
+}
+
+.fixit{
+  margin-top: 1.3rem;
+  padding-top: 0.3rem;
+}
+
+.card {
+  /* width: auto !important; */
+  margin: 0.5rem;
+}
+
+.card-container :hover {
+  background-color: orange;
+  color: black;
+}
+
+/* used in home.js */
+.home_info {
+  text-align: justify;
+  margin: 1rem;
+}
+
+.card-container, .form_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.details {
+  display: none;
+  margin: 1rem;
+  text-align: justify;
+}
+
+/* footer section */
+.bottom_details {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.bottom_details:hover {
+  background-color: navy;
+}
+
+
+/* afterLoggin Faqs.js */
+.my_form {
+  text-align: justify;
+  margin-left: 2rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.question_block {
+  display: grid;
+  place-items: left;
+  width: 100%;
+}
+
+
+/* registration.js */
+.registration_page {
+  margin: 1rem;
+  box-shadow: 10px 0px 31px orange;
+  display: ruby-text;
+  padding: 1rem;
+}
+
+.registration_button {
+  margin: auto;
+  width: 20vw;
+  display: grid;
+  place-items: center;
+}
+
+/* login.js */
+.login_page {
+  margin: 1rem;
+  box-shadow: 10px 0px 31px orange;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.login_button {
+  margin: auto;
+  width: 20vw;
+  display: grid;
+  place-items: center;
+}
+
+.show_password{
+  margin: 0;
+  /* padding: 0; */
+}
+
+#show_password{
+  margin: 0;
+  padding: 0;
+}
+
+/* Brief_Form.js */
+.brief_style{
+  text-align: justify;
+}
+
+table{
+  text-align: justify;
+}
+
+/* DashBoard.jsx */
+.holder{
+  width: 100%;
+  display: flex;
+}
+.side_bar{
+  height: 100rem;
+  width: 30%;
+  border-style: dashed;
+}
+
+.display_info{
+  height: 100rem;
+  width: 70%;
+  border-style: outset;
+}
+

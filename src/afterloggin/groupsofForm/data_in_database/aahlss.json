@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "domain": "Functional health literacy",
+        "description_domain": [
+            {
+                "sub_id": "FQ1",
+                "description": "How often do you need someone to help you when you are given information to read by your doctor, nurse or pharmacist?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "FQ2",
+                "description": "When you need help, can you easily get hold of someone to assist you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "FQ3",
+                "description": "Aggregate of Q1 and Q2",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "FQ4",
+                "description": "Do you need help to fill in official documents.",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "domain": "Communicative health literacy ",
+        "description_domain": [
+            {
+                "sub_id": "Com Q1",
+                "description": "When you talk to a doctor or nurse, do you give them all the information they need to help you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "Com Q2",
+                "description": "When you talk to a doctor or nurse, do you ask the questions you need to ask?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "Com Q3",
+                "description": "When you talk to a doctor or nurse, do you make sure they explain anything that you do not understand?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "domain": "Critical health literacy",
+        "description_domain": [
+            {
+                "sub_id": "Cr1",
+                "description": ": Are you someone who likes to find out lots of different information about your health?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "Cr2",
+                "description": "How often do you think carefully about whether health information makes sense in your particular situation?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "Cr3",
+                "description": "How often do you try to work out whether information about your health can be trusted?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "Emp1",
+                "description": "Do you think that there plenty of ways to have a say in what the government does about health? ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id": "Emp2",
+                "description": "Within the last 12 months have you taken action to do something about a health issue?",
+                "options": [
+                    "Yes","No"
+                ]
+            },
+            {
+                "sub_id": "Emp3",
+                "description": "What do you think matters most for everyone’s health?",
+                "options": [
+                    "(a) information and encouragement to lead healthy lifestyles",
+                    "(b) good housing, education, decent jobs and good local facilities"                   
+                ]
+            }
+        ]
+    }
+]

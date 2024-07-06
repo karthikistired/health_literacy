@@ -1,0 +1,122 @@
+[
+    {
+        "questionid": 1,
+        "description": "…find information on treatments of illnesses that concern you?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 2,
+        "description": "…understand the leaflets that come with your medicine?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 3,
+        "description": "…judge the advantages and disadvantages of different treatment options?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 4,
+        "description": "…call an ambulance in an emergency?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 5,
+        "description": "…find information on how to manage mental health problems like stress or depression?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 6,
+        "description": "…understand why you need health screenings (such as breast exam, blood sugar test, blood pressure)?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 7,
+        "description": "…judge which vaccinations you may need?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 8,
+        "description": "…decide how you can protect yourself from illness based on advice from family and friends?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 9,
+        "description": "…find out about activities (such as meditation, exercise, walking, Pilates etc. ) that are good for your mental well-being?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 10,
+        "description": "…understand information in the media (such as Internet, newspaper, magazines) on how to get healthier?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 11,
+        "description": "…judge which everyday behavior (such as drinking and eating habits, exercise etc.) is related to your health?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 12,
+        "description": "… join a sports club or exercise class if you want to?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    }
+]

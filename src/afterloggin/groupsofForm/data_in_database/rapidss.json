@@ -1,0 +1,258 @@
+[
+    {
+        "id": 1,
+        "wordings": [
+            "Bite",
+            "Fracture",
+            "Suture"
+        ]
+    },
+    {
+        "id": 2,
+        "wordings": [
+            "Sugar",
+            "Enamel",
+            "Radiograph"
+        ]
+    },
+    {
+        "id": 3,
+        "wordings": [
+            "Smoking",
+            "Erupt",
+            "Trauma"
+        ]
+    },
+    {
+        "id": 4,
+        "wordings": [
+            "Tooth",
+            "Tongue",
+            "Extraction"
+        ]
+    },
+    {
+        "id": 5,
+        "wordings": [
+            "Floss",
+            "Sealant",
+            "Operative"
+        ]
+    },
+    {
+        "id": 6,
+        "wordings": [
+            "Habits",
+            "Genetics",
+            "Porcelian"
+        ]
+    },
+    {
+        "id": 7,
+        "wordings": [
+            "Brush",
+            "Varnish",
+            "Benign"
+        ]
+    },
+    {
+        "id": 8,
+        "wordings": [
+            "Diet",
+            "Referral",
+            "Periodontal"
+        ]
+    },
+    {
+        "id": 9,
+        "wordings": [
+            "Dentist",
+            "CoPayment",
+            "Fistula"
+        ]
+    },
+    {
+        "id": 10,
+        "wordings": [
+            "Canine",
+            "Coverage",
+            "Flurosis"
+        ]
+    },
+    {
+        "id": 11,
+        "wordings": [
+            "Socket",
+            "Surgery",
+            "Cellulitis"
+        ]
+    },
+    {
+        "id": 12,
+        "wordings": [
+            "Molar",
+            "Sedation",
+            "Malignant"
+        ]
+    },
+    {
+        "id": 13,
+        "wordings": [
+            "Oral",
+            "Deductible",
+            "Esthetic"
+        ]
+    },
+    {
+        "id": 14,
+        "wordings": [
+            "Filling",
+            "Diabetes",
+            "Diagnosis"
+        ]
+    },
+    {
+        "id": 15,
+        "wordings": [
+            "Bleeding",
+            "Discolored",
+            "Abscess"
+        ]
+    },
+    {
+        "id": 16,
+        "wordings": [
+            "Snacking",
+            "Caries",
+            "Incipient"
+        ]
+    },
+    {
+        "id": 17,
+        "wordings": [
+            "Bridge",
+            "Infection",
+            "Halitosis"
+        ]
+    },
+    {
+        "id": 18,
+        "wordings": [
+            "Cavity",
+            "Cyst",
+            "Calculus"
+        ]
+    },
+    {
+        "id": 19,
+        "wordings": [
+            "Recall",
+            "Veneer",
+            "Avulsion"
+        ]
+    },
+    {
+        "id": 20,
+        "wordings": [
+            "Implant",
+            "Panoramic",
+            "Malocclusion"
+        ]
+    },
+    {
+        "id": 21,
+        "wordings": [
+            "Cancer",
+            "Orthodontics",
+            "Incisor"
+        ]
+    },
+    {
+        "id": 22,
+        "wordings": [
+            "Braces",
+            "Instrument",
+            "Transmissibility"
+        ]
+    },
+    {
+        "id": 23,
+        "wordings": [
+            "Speech",
+            "Nutrition",
+            "Microorganisms"
+        ]
+    },
+    {
+        "id": 24,
+        "wordings": [
+            "Teething",
+            "Inflammation",
+            "Ankylosis"
+        ]
+    },
+    {
+        "id": 25,
+        "wordings": [
+            "Bleach",
+            "Restoration",
+            "Bruxism"
+        ]
+    },
+    {
+        "id": 26,
+        "wordings": [
+            "Approval",
+            "Fluoride",
+            "Dentition"
+        ]
+    },
+    {
+        "id": 27,
+        "wordings": [
+            "Pulp",
+            "Bacteria",
+            "Hypoplasia"
+        ]
+    },
+    {
+        "id": 28,
+        "wordings": [
+            "Mouth rinse",
+            "Evaluation",
+            "Hyperemia"
+        ]
+    },
+    {
+        "id": 29,
+        "wordings": [
+            "Splint",
+            "Plaque",
+            "Analgesia"
+        ]
+    },
+    {
+        "id": 30,
+        "wordings": [
+            "Toothpaste",
+            "Biopsy",
+            "Amalgam"
+        ]
+    },
+    {
+        "id": 31,
+        "wordings": [
+            "Mouth guard",
+            "Sterilization",
+            "Temporomandibular"
+        ]
+    },
+    {
+        "id": 32,
+        "wordings": [
+            "Denture",
+            "Prescription",
+            ""
+        ]
+    }
+]

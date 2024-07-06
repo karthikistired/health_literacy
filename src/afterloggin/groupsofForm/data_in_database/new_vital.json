@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "description_domain": [
+            {
+                "sub_id":"1_1" ,
+                "description": "We are asking our patients to help us learn how well patients can understand the medical information that doctors give them.Would you be willing to help us by looking at some health information and then answering a few questions about that information ? Your answers will help our doctors learn how to provide medical information in ways that patients will understand.It will only take about 3 minutes.",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    }
+]

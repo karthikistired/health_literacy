@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "text": "How often do you have someone help you read hospital materials?",
+        "type": "BRIEF",
+        "options": [
+            "Always",
+            "Often",
+            "Sometimes",
+            "Occasionally",
+            "Never"
+        ]
+    },
+    {
+        "id": 2,
+        "text": "How often do you have problems learning about your medical condition because of difficulty understanding written information?",
+        "type": "BRIEF",
+        "options": [
+            "Always",
+            "Often",
+            "Sometimes",
+            "Occasionally",
+            "Never"
+        ]
+    },
+    {
+        "id": 3,
+        "text": "How often do you have problem understanding what is told to you about your medical condition?",
+        "type": "BRIEF",
+        "options": [
+            "Always",
+            "Often",
+            "Sometimes",
+            "Occasionally",
+            "Never"
+        ]
+    },
+    {
+        "id": 4,
+        "text": "How confident are you filling out medical forms by yourself?",
+        "type": "BRIEF",
+        "options": [
+            "Not at all",
+            "A little bit",
+            "Somewhat",
+            "Quite a bit",
+            "Extremely"
+        ]
+    }
+]
