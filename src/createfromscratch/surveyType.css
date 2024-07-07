@@ -1,0 +1,55 @@
+/* surveyType.css */
+
+.headText {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.headText span {
+  font-size: 11px;
+  color: #666;
+}
+
+.multi-select-dropdown {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.multi-select-dropdown select {
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.selected-options {
+  margin-top: 10px;
+}
+
+.selected-options ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-options li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Styling for selected options */
+.multi-select-dropdown select option:checked {
+  background-color: #e0e0e0;
+}
+
+/* Hover effect for options */
+.multi-select-dropdown select option:hover {
+  background-color: #f0f0f0;
+}

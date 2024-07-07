@@ -1,0 +1,458 @@
+[
+    {
+        "id": 1,
+        "domain": "How Well Nurses Communicate",
+        "description_domain": [
+            {
+                "sub_id":"HN1",
+                "description": "During this hospital stay how often did nurses answer all your questions to your satisfaction?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN2",
+                "description": "During this hospital stay how often did nurses use pictures, drawings, or models to explain things to you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN3",
+                "description": "During this hospital stay how often did you feel nurses really cared about you as a person",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN4",
+                "description": "During this hospital stay how often did nurses use medical words you did not understand?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN5",
+                "description": "During this hospital stay how often did nurses interrupt you when you were talking?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN6",
+                "description": "During this hospital stay how often did nurses talk too fast when talking with you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN7",
+                "description": "During this hospital stay how often were nurses hard to understand because of an accent or the way they spoke to you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HN8",
+                "description": "During this hospital stay how often did nurses use a condescending, sarcastic or rude tone or manner with you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "domain": "How Well Doctor Communicate",
+        "description_domain": [
+            {
+                "sub_id":"HD1",
+                "description": "During this hospital stay, how often did doctors answer all your questions to your satisfaction?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD2",
+                "description": "During this hospital stay, how often did doctors use pictures, drawings, or models to explain things to you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD3",
+                "description": "During this hospital stay, how often did doctors make sure you understood all the information you were given?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD4",
+                "description": "During this hospital stay, how often did you feel doctors really cared about you as a person?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD5",
+                "description": "During this hospital stay, how often did doctors use medical words you did not understand?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD6",
+                "description": "During this hospital stay, how often did doctors interrupt you when you were talking?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD7",
+                "description": "During this hospital stay, how often did doctors talk too fast when talking with you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD8",
+                "description": "During this hospital stay, how often were doctors hard to understand because of an accent or the way they spoke to you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"HD9",
+                "description": "During this hospital stay, how often did doctors use a condescending, sarcastic or rude tone or manner with you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "domain": "Communication About Tests",
+        "description_domain": [
+            {
+                "sub_id":"CA1",
+                "description": "During this hospital stay, before you had a blood test, x-ray, or other test, how often did hospital staff explain what it was for?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CA2",
+                "description": "How often was the explanation easy to understand?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CA3",
+                "description": "During this hospital stay, when you had a blood test, x-ray, or other test, how often did hospital staff explain the results to you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CA4",
+                "description": "How often was the explanation easy to understand?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "domain": "Information About How to Care for Yourself At Home",
+        "description_domain": [
+            {
+                "sub_id":"IU1",
+                "description": "During this hospital stay, did hospital staff give you a telephone number to call if you had problems after you left the hospital?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IU2",
+                "description": "During this  hospital stay, did hospital staff tell you how to take care of yourself at home?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IU3",
+                "description": "Was the information easy to understand?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IU4",
+                "description": "During this  hospital stay, did you get instructions in writing about how to take care of yourself at home?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IU5",
+                "description": "Were the written instructions easy to understand?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IU6",
+                "description": "Were the instructions available in your preferred language?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "domain": "Information About Medicines",
+        "description_domain": [
+            {
+                "sub_id":"IAM1",
+                "description": "During this hospital stay, did hospital staff explain the purpose of each of the medicines you were to take at home?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IAM2",
+                "description": "Was the explanation easy to understand?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IAM3",
+                "description": "During this hospital stay, did hospital staff explain how much to take of each medicine and when to take it when you were at home?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IAM4",
+                "description": "During this hospital stay, did hospital staff ask you to describe how much you",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IAM5",
+                "description": "would take of each medicine and when you would take it when you were at home?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IAM6",
+                "description": "During this hospital stay, did hospital staff tell you whom to call if you had questions about your medicines?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IAM7",
+                "description": "How often was the explanation easy to understand?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "domain": "Interpreter Services",
+        "description_domain": [
+            {
+                "sub_id":"IS1",
+                "description": "During this hospital stay how often were you treated unfairly because you do not speak English very well?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"IS2",
+                "description": "During this hospital stay was there any time when you needed an interpreter and did not get one at the hospital?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"IS3",
+                "description": "During this hospital stay did hospital staff tell you that you had a right to interpreter services free of charge?",
+                "options": [
+                    "Yes",
+                    "No"
+                ]
+            },
+            {
+                "sub_id":"IS4",
+                "description": "During this hospital stay how often did this interpreter provided by the hospital treat you with courtesy and respect?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"IS5",
+                "description": "During this hospital stay how often did you have to wait 15 minutes or longer for the interpreter provided by the hospital to come help you?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "domain": "Communication About Forms",
+        "description_domain": [
+            {
+                "sub_id":"CAF1",
+                "description": "During this hospital how often did hospital staff explain the purpose of each form before you filled it out or signed it?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CAF2",
+                "description": "During this hospital how often were the forms that you got easy to fill out?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CAF3",
+                "description": "During this hospital how often did hospital staff offer you help in filling out a form?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CAF4",
+                "description": "During this hospital how often were you given enough time to fill out or sign forms?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"CAF5",
+                "description": "During this hospital how often were the forms that you had to fill out or sign available in your preferred language?",
+                "options": [
+                    "Never",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    }
+]

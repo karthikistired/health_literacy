@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(354.5829769202486deg, white, #dfd7c2);
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pagenotfound{
+  background-image: url('./images/manipal_intro.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+
+:root{
+  --gray0:#f8f8f8;
+  --gray0la:#f8f8f888;
+  --gray1:#dbe1e8;
+  --gray2:#b2becd;
+  --gray2lowalpha:#b2becd22;
+  --gray3:#6c7983;
+  --gray4:#454e56;
+  --gray5:#2a2e35;
+  --gray6:#12181b;
+  --gray6la:#12181b88;
+  --blue:#0084a5;
+  --purple:#a82dd1;
+  --yellow:#fff565;
+
+}
+
+.light{
+  --bg:var(--gray0);
+  --bglowalpha:var(--gray0la);
+  --bg-nav:linear-gradient(to right, var(--gray1),var(--gray3));
+  --bg-dropdown:var(--gray0);
+  --text:var(--gray6);
+  --text2:var(--gray4);
+  --border-color:var(--blue);
+  --bg-solar:var(--yellow);
+  --tb:var(--gray1);
+  --qb:var(--gray1);
+  --ti:linear-gradient(to bottom,transparent,var(--gray2lowalpha));
+}
+
+.dark{
+  --bg:var(--gray6);
+  --bglowalpha:var(--gray6la);
+  --bg-nav:linear-gradient(to right, var(--gray5),var(--gray6));
+  --bg-dropdown:var(--gray6);
+  --text:var(--gray0);
+  --text2:var(--gray2);
+  --border-color:var(--purple);
+  --bg-solar:var(--blue);
+  --tb:var(--gray5);
+  color: white;
+  --qb:var(--gray4);
+  --ti:linear-gradient(to bottom,transparent,var(--gray2lowalpha));
+}
+
+.solar{
+  --gray0:#fbffd4;
+  --gray1:#f7f8d0;
+  --gray2:#b6f880;
+  --gray2lowalpha:#b6f88022;
+  --gray3:#5ec72d;
+  --gray4:#3ea565;
+  --gray5:#005368;
+  --gray6:#003d4c;
+}
+

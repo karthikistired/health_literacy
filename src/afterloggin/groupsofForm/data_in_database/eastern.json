@@ -1,0 +1,175 @@
+[
+    {
+        "id": 1,
+        "domain": "Write/Completing Medical Information",
+        "description_domain": [
+            {
+                "sub_id":"WCMI1",
+                "description": "You can write your name and complete the treatment Consent Form?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"WCMI2",
+                "description": "You can write to complete the past medical history form given to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "domain": "Non-health Related Information (Controls)",
+        "description_domain": [
+            {
+                "sub_id":"NHRI1",
+                "description": "You can understand and demonstrate reading the English Newspaper?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"NHRI2",
+                "description": "You can understand and demonstrate reading the local language newspaper?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "domain": "Navigating the Health Care System",
+        "description_domain": [
+            {
+                "sub_id":"NHCS1",
+                "description": "You can correctly demonstrate understanding of the local currency denominations given to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"NHCS2",
+                "description": "You can read and identify the hospital signs shown to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"NHCS3",
+                "description": "You can read and Identify the out-patient clinic where you have your appointment?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "domain": "Reading health-related information",
+        "description_domain": [
+            {
+                "sub_id":"RHRI1",
+                "description": "You can read and understand the appointment slip?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"RHRI2",
+                "description": "You can read and understand the patient education material given to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"RHRI3",
+                "description": "You can read and understand patient rights & responsibilities sheet given to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "domain": "Understanding health-related Information",
+        "description_domain": [
+            {
+                "sub_id":"UHRI1",
+                "description": "You can your understand and differentiate between the two similar medication labels given to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"UHRI2",
+                "description": "You can understand and differentiate the dosage instructions on the medication bottle label?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            },
+            {
+                "sub_id":"UHRI3",
+                "description": "You can understand and differentiate when and how medication needs to be taken from the prescription/instruction given to you?",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    }
+]

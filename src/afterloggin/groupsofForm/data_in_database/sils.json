@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "description_domain": [
+            {
+                "sub_id":"1_1",
+                "description": "How often do you need to have someone help you when you read instructions, pamphlets, or other written material from your doctor or pharmacy?        ",
+                "options": [
+                    "Never",
+                    "Rarely",
+                    "Sometimes",
+                    "Usually",
+                    "Always"
+                ]
+            }
+        ]
+    }
+]

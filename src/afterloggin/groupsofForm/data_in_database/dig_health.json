@@ -1,0 +1,42 @@
+[
+    {
+        "questionid": 1,
+        "description": "Find reliable and accurate healthy diet information on the internet?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 2,
+        "description": "Understand healthy diet information and dietary guidelines on the internet?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 3,
+        "description": "Judge whether healthy diet information on the internet applied to you?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    },
+    {
+        "questionid": 4,
+        "description": "Apply healthy diet information from the internet to your daily life to make you eat better?",
+        "options": [
+            "Very difficult",
+            "Fairly difficult",
+            "Fairly easy",
+            "Very easy"
+        ]
+    }
+]

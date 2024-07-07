@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "domain": "Composite Health Literacy Scale(HLS)",
+        "description_domain": [
+            {
+                "sub_id":"HLS1",
+                "description": "I have difficulty understanding health information",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"HLS2",
+                "description": "I have difficulty following instructions from my doctor.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"HLS3",
+                "description": "I have difficulty reading health information.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"HLS4",
+                "description": "I have difficulty understanding medical terms.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"HLS5",
+                "description": "I have difficulty making decisions about my health because of my health literacy skills.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "domain": "Subjective Numeracy Scale(SNS)",
+        "description_domain": [
+            {
+                "sub_id":"SNS1",
+                "description": "I find it difficult to understand numbers and statistics.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"SNS2",
+                "description": "I find it difficult to make decisions about my health because of my numeracy skills.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"SNS3",
+                "description": "I find it difficult to understand how to read and interpret graphs and charts.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            },
+            {
+                "sub_id":"SNS4",
+                "description": "I find it difficult to understand how to use numbers in everyday life.",
+                "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ]
+            }
+        ]
+    }
+]
