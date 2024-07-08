@@ -69,6 +69,7 @@ export default function Navigation() {
                     >
                         <Nav.Link href="/">Home</Nav.Link>
                         <Nav.Link href="/login">Login</Nav.Link>
+                        <Nav.Link href="/surveys">Surveys</Nav.Link>
                         <Nav.Link className="nav-item has-dropdown">
                             Theme
                             

@@ -32,7 +32,7 @@ import Split from './createfromscratch/Grouping/Split'
 import QuestionForm from './createfromscratch/QuestionForm';
 import ResponseTemplate from './createfromscratch/Respond/ResponseTemplate';
 import GetSurveys from './GetSurveys';
-
+import Surveys from './createfromscratch/Surveys';
 
 function App() {
   useEffect(() => {
@@ -170,6 +170,10 @@ function App() {
     {
       path: '/getSurveys',
       element: <GetSurveys />
+    },
+    {
+      path: '/surveys',
+      element: <Surveys />
     }
   ]);
   return (
