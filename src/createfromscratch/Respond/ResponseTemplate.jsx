@@ -85,10 +85,25 @@ export default function ResponseTemplate() {
         }));
     };
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-        // Handle form submission (e.g., send answers to the server)
-        console.log('User answers:', userAnswers);
+        // Generate a unique user ID for each submission
+        const userId = `user_${Date.now()}`;
+        const response = {
+            userId,
+            surveyId,
+            responses: Object.keys(userAnswers).map((questionId) => ({
+                questionId,
+                answer: userAnswers[questionId],
+            })),
+        };
+
+        try {
+            await axios.post('http://localhost:5000/api/responses/saveresponse', response);
+            console.log('Response saved:', response);
+        } catch (error) {
+            console.error('Error saving response:', error);
+        }
     };
 
     const handleSave = () => {

@@ -1,21 +1,30 @@
 const mongoose = require('mongoose');
 
-const ResponseSchema = new mongoose.Schema({
-    survey_id: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Survey',
+const responseSchema = new mongoose.Schema({
+  userId: {
+    type: String,
+    required: true
+  },
+  surveyId: {
+    type: String,
+    required: true
+  },
+  responses: [
+    {
+      questionId: {
+        type: String,
         required: true
-    },
-    responses: [{
-        question_id: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Question'
-        },
-        answer: {
-            type: String,
-            required: true
-        }
-    }]
+      },
+      answer: {
+        type: mongoose.Mixed, // This allows for various types of responses (string for text, array for multiple choice, etc.)
+        required: true
+      }
+    }
+  ]
+}, {
+  timestamps: true
 });
 
-module.exports = Response = mongoose.model('Response', ResponseSchema);
+const Response = mongoose.model('Response', responseSchema);
+
+module.exports = Response;

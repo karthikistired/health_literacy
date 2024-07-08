@@ -13,6 +13,12 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
+// Logging Middleware
+app.use((req, res, next) => {
+    console.log(`${req.method} ${req.url}`);
+    next();
+});
+
 // Import models
 require('./models/user.model');
 require('./models/question.model');
@@ -24,6 +30,12 @@ app.use('/api/users', userRoutes); // Ensure this path is correct
 app.use('/api/questions', questionRoutes);
 app.use('/api/survey', surveyRoutes);
 app.use('/api/responses', responseRoutes);
+
+// Test Route
+app.get('/test', (req, res) => {
+    console.log('Test route hit');
+    res.send('Server is running');
+});
 
 // Database connection
 const mongoURI = 'mongodb+srv://dbUser:rn8pS76FPfbQWkiz@development.idrmls4.mongodb.net/?retryWrites=true&w=majority&appName=Development';

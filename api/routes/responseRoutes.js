@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { submitResponse, getResponses } = require('../controllers/responseController');
+const responseController = require('../controllers/responseController');
 
-// Submit response
-router.post('/', submitResponse);
+// Route to get all responses for a specific survey
+router.get('/:surveyId', responseController.getSurveyResponses);
 
-// Get all responses for a survey
-router.get('/:survey_id', getResponses);
+// Route to save a response
+router.post('/saveresponse', responseController.saveResponse);
 
 module.exports = router;

@@ -21,16 +21,49 @@ export default function Surveys() {
     }, []);
 
     const handleSelect = (event) => {
-        setSelectedSurvey(event.target.value);
+        const surveyId = event.target.value;
+        setSelectedSurvey(surveyId);
+        console.log('Selected Survey:', surveyId); // Log the selected survey ID
     };
 
-    const handleGenerateReport = () => {
+    const handleGenerateReport = async () => {
         if (selectedSurvey) {
-            // Logic to generate report for the selected survey
-            console.log(`Generating report for survey ID: ${selectedSurvey}`);
+            try {
+                const response = await axios.get(`http://localhost:5000/api/responses/${selectedSurvey}`);
+                console.log(response.data);
+                const report = generateCSV(response.data);
+                downloadCSV(report, `report_${selectedSurvey}.csv`);
+            } catch (error) {
+                console.error('Error generating report:', error);
+            }
         } else {
             console.log('No survey selected');
         }
+    };
+
+    const generateCSV = (responses) => {
+        if (!responses.length) return '';
+
+        const headers = ['user_id', ...responses[0].responses.map(resp => resp.questionText)];
+        const rows = responses.map(response => [
+            response.userId,
+            ...response.responses.map(resp => resp.answer).join(',')
+        ]);
+
+        const csvContent = [headers, ...rows].map(e => e.join(',')).join('\n');
+        return csvContent;
+    };
+
+    const downloadCSV = (csvContent, fileName) => {
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement("a");
+        const url = URL.createObjectURL(blob);
+        link.href = url;
+        link.setAttribute("download", fileName);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
     };
 
     return (
