@@ -65,9 +65,6 @@ const questionSchema = new mongoose.Schema({
     }
   });
 
-module.exports = Question = mongoose.model('Question',questionSchema);
-
-
 const surveySchema = new mongoose.Schema({
   surveyId: {
     type: String,
@@ -87,7 +84,7 @@ const surveySchema = new mongoose.Schema({
   timestamps: true
 });
 
+const Question = mongoose.model('Question', questionSchema);
 const Survey = mongoose.model('Survey', surveySchema);
 
-module.exports = Survey;
-
+module.exports = { Question, Survey };

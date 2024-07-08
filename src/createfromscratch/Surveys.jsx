@@ -44,10 +44,13 @@ export default function Surveys() {
     const generateCSV = (responses) => {
         if (!responses.length) return '';
 
-        const headers = ['user_id', ...responses[0].responses.map(resp => resp.questionText)];
+        const headers = ['user_id', ...responses[0].responses.map(resp => `"${resp.questionText.replace(/"/g, '""')}"`)];
         const rows = responses.map(response => [
             response.userId,
-            ...response.responses.map(resp => resp.answer).join(',')
+            ...response.responses.map(resp => {
+                const answer = typeof resp.answer === 'string' ? resp.answer : JSON.stringify(resp.answer);
+                return `"${answer.replace(/"/g, '""')}"`;
+            })
         ]);
 
         const csvContent = [headers, ...rows].map(e => e.join(',')).join('\n');

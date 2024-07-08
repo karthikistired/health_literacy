@@ -92,9 +92,9 @@ export default function ResponseTemplate() {
         const response = {
             userId,
             surveyId,
-            responses: Object.keys(userAnswers).map((questionId) => ({
-                questionId,
-                answer: userAnswers[questionId],
+            responses: questions.map((question) => ({
+                questionId: question.id, // Use the correct question ID
+                answer: userAnswers[question.id] || '', // Ensure the answer is correctly mapped
             })),
         };
 
@@ -108,8 +108,8 @@ export default function ResponseTemplate() {
 
     const handleSave = () => {
         const csvContent = "data:text/csv;charset=utf-8," + 
-            questions.map((question, index) => {
-                const answer = userAnswers[index];
+            questions.map((question) => {
+                const answer = userAnswers[question.id] || '';
                 return `${question.questionText},${answer}`;
             }).join("\n");
         const encodedUri = encodeURI(csvContent);
@@ -138,7 +138,7 @@ export default function ResponseTemplate() {
             <div className='response_bottom'>
                 <Accordion defaultActiveKey="0">
                     {questions && questions.length > 0 && questions.map((question, index) => (
-                        <Accordion.Item eventKey={index} key={index}>
+                        <Accordion.Item eventKey={index} key={question.id}>
                             <Accordion.Header>{question.questionText}</Accordion.Header>
                             <Accordion.Body>
                                 <Form>
@@ -170,9 +170,9 @@ export default function ResponseTemplate() {
                                             type="radio"
                                             label={option.optionText}
                                             value={option.optionText}
-                                            name={index}
-                                            checked={userAnswers[index] === option.optionText}
-                                            onChange={(e) => handleAnswerChange(index, e.target.value)}
+                                            name={question.id}
+                                            checked={userAnswers[question.id] === option.optionText}
+                                            onChange={(e) => handleAnswerChange(question.id, e.target.value)}
                                         />
                                     ))) || (question.questionType === "MSQ" && question.options.map((option, optionIndex) => (
                                         <Form.Check
@@ -180,13 +180,13 @@ export default function ResponseTemplate() {
                                             type="checkbox"
                                             label={option.optionText}
                                             value={option.optionText}
-                                            checked={userAnswers[index] && userAnswers[index].includes(option.optionText)}
-                                            onChange={(e) => handleAnswerAdd(index, e.target.value)}
+                                            checked={userAnswers[question.id] && userAnswers[question.id].includes(option.optionText)}
+                                            onChange={(e) => handleAnswerAdd(question.id, e.target.value)}
                                         />
                                     ))) || (question.questionType === "INFO" && (
                                         <Form.Control
                                             type="text"
-                                            id={index}
+                                            id={question.id}
                                             pattern={question.regex ? question.regex : undefined}
                                             onChange={handleTextChange}
                                         />
